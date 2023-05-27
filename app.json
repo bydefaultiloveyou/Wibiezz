@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "wibiezz",
+    "slug": "wibiezz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "wibiezz",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wibiezz.app"
+    },
+    "android": {
+      "package": "com.wibiezz.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3440d488-0228-4b23-a98d-50e224928729"
+      }
+    },
+    "owner": "mkmysa"
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5908197227398701/8767319606"
+  }
+}
